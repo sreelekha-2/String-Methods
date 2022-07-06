@@ -1,7 +1,7 @@
 let str = 'SreeLekHA';
 let newStr = '';
 
-//1.conversion of letters from upper to lower and vice versa
+//1.conversion of letters from upper to lower case and vice versa
 for (let letter of str) {
   if (letter === letter.toUpperCase()) {
     newStr += letter.toLowerCase();
